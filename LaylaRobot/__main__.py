@@ -54,7 +54,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 You can find my list of available commands with /help.
-i'm a group manager bot. Maintained by @HEROGAMERS1 ❤
+i'm a group manager bot. 
+
+Developed By- [『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★](https://t.me/DEBOJYOTINO1)
 
 """
 
@@ -76,10 +78,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/524b78577a42b02b2f074.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f9631797f7fec76c886c7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting him; [Hero](t.me/HEROGAMERS1)"""
+Supporting Team >> [ＧＥＮＥＲＡＬツ★](t.me/Animeweebs2)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -197,17 +199,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add 𝙇𝙖𝙮𝙡𝙖 to your group",
+                            text="👰 Add ASUNA to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Girls_and_Boys_Chatting"),
+                             url=f"https://t.me/Animeweebs2"),
                          InlineKeyboardButton(
                              text="📘 Logs",
-                             url="https://t.me/LaylaLogs")
+                             url="https://t.me/Asuna_logs")
                      ],
                      [
                          InlineKeyboardButton(
@@ -216,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                      ]]))
     else:
         update.effective_message.reply_text(
-            "I'm online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Damn!Im all rady online 🙄🙄 \n<b>Up since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
