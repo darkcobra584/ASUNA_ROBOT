@@ -208,13 +208,13 @@ def start(update: Update, context: CallbackContext):
                              text="Support Group",
                              url=f"https://t.me/Animeweebs2"),
                          InlineKeyboardButton(
-                             text="📘 Logs",
+                             text="CHAT WITH ANIME LOVERS",
                              url="https://t.me/Animeweebs2")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/QueenArzoo/LaylaRobot")
+                             url="https://github.com/sadhanhori/ASUNA_ROBOT")
                      ]]))
     else:
         update.effective_message.reply_text(
