@@ -10,8 +10,6 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 <details>
   <summary>Steps to deploy on Heroku !! </summary>
-#DEPLOY
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot.git ]
 ```
 Fill in all the details, Deploy!
 Now go to https://dashboard.heroku.com/apps/(app-name)/resources ( Replace (app-name) with your app name )
