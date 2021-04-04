@@ -6,7 +6,6 @@
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 ## How to setup/deploy.
-https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FRajkumar-27%2FCutiepiiRobot&org=warriorgang&template=https%3A%2F%2Fgithub.com%2FAnimeKaizoku%2FSaitamaRobot.git
 
 
 <details>
