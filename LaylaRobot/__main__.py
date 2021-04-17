@@ -56,9 +56,7 @@ Hi {}, my name is {}!
 You can find my list of available commands with /help.
 i'm a group manager bot. 
 
-Developed By- [『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★](https://t.me/DEBOJYOTINO1)
 
-"""
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -78,10 +76,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/f9631797f7fec76c886c7.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/3be9750d90d18241d1fc7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting Team >> [ＧＥＮＥＲＡＬツ★](t.me/Animeweebs2)"""
+Supporting Team >> [LEGENDS](t.me/LEGENDxSENPAI)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -199,26 +197,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add ASUNA to your group",
+                            text="👰 Add MIZUHARA to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Animeweebs2"),
+                             url=f"https://t.me/suppot_mizuhara_robot"),
                          InlineKeyboardButton(
                              text="CHAT WITH ANIME LOVERS",
-                             url="https://t.me/Animeweebs2")
+                             url="https://t.me/LEGENDxSENPAI")
                      ],
                      [
                          InlineKeyboardButton(
                              text="☑️ Source code",
-                             url="https://github.com/sadhanhori/ASUNA_ROBOT")
+                             url="https://logsmizuhara")
                      ]]))
     else:
         update.effective_message.reply_text(
-            "Damn!Im all rady online 🙄🙄 \n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Baby!I'm all ready online 😄 \n<b>Up since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
