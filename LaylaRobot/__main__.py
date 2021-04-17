@@ -56,7 +56,10 @@ Hi {}, my name is {}!
 You can find my list of available commands with /help.
 i'm a group manager bot. 
 
+Developed By- [ཧᜰ꙰ꦿ➢♛Senթai♛ 『ARCANE』](https://t.me/
+ANlME_SENPAI)
 
+"""
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
